@@ -1,0 +1,151 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, helvetica, sans-sefif; 
+  font-size: 16px;
+  color: white;
+}
+nav{
+  display: flex;
+  padding: 1% 2%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  margin-top: 2px;
+}
+nav h2{
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.list1{
+  display: flex;
+  text-align: center;
+  gap: 30px;
+  text-transform: uppercase;
+}
+.first{
+  text-align: center;
+  padding: 35px;
+  background-color: cadetblue;
+  border: 5px solid orange;
+
+}
+.copy{
+  background-color: cadetblue;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+.bttn{
+  text-decoration-color: black;
+  color: black;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 5px;
+  height: 40px;
+  width: 250px;
+  padding-left: 12px;
+  background-color: azure;
+  margin-top: 10px;
+}
+
+.btt{
+  text-decoration-color: black;
+  color: black;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 2px;
+  height: 40px;
+  width: 100px;
+  background-color: azure;
+}
+
+.comment{
+  text-decoration-color: black;
+  color: black;
+  align-items: center;
+  justify-content: top;
+  width: 250px;
+  height: 37px;
+  padding-top: 1px;
+  padding-left: 12px;
+  padding-bottom: 80px;
+  background-color: azure;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.ab{
+  color: black;
+  margin-top: 10px;
+  
+}
+
+footer{
+  background: dimgray;
+  padding-top: 50px;
+}
+.container{
+  width:500px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.footer-content{
+  width: 34.3%;
+  padding: 50px;
+}
+
+h1{
+  color: gainsboro;
+  margin-bottom: 20px;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+h3{
+  font-size: 28px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.footer-content p{
+  width: 190px;
+  margin: auto;
+  padding: 7px;
+}
+.footer-content ul{
+  text-align: center;
+}
+.list{
+  padding: 0;
+  list-style-type: none;
+}
+list li{
+  width: auto;
+  text-align: center;
+  list-style-type: none;
+  padding: 7px;
+  position: relative;
+}
+.list li::before{
+  content:'';
+  position: absolute;
+  transform: translate(50%,-50%);
+  left: 50%;
+  top: 100%;
+  width: 0;
+  height: 2px;
+  background: #f18930;
+  transition-duration: 0.5s;
+}
+.list li:hover::before{
+  width: 70px;
+}
+a{
+  text-decoration: none;
+}
+
+

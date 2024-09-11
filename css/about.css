@@ -1,0 +1,127 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    padding: 20px 0 0 0; 
+    text-align: center;
+    
+}
+h2{
+    padding-left: 10px;
+    font-size: 18px;
+    color: white;
+}
+/* Body Styling */
+body {
+    font-family:Arial, helvetica, sans-sefif; 
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    background-color: #333;
+    padding: 5px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+.navbar ul li {
+    font-size: 16px;
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: #ffa500;
+}
+
+/* About Section Styling */
+main {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile Image Styling */
+.profile-image {
+    flex: 1;
+    text-align: center;
+}
+
+.profile-image img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+/* Description Styling */
+.description {
+    flex: 2;
+    margin-left: 20px;
+}
+
+.description h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.description h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.description p {
+    font-size: 1.2em;
+    line-height: 1.8;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: cadetblue;
+    color: #fff;
+}
+
+footer p {
+    font-size: 1em;
+}
